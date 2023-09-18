@@ -27,17 +27,7 @@
 
 ### 2) “Shopping list”
 
-В корені purchaseapp ```npm install```
-
-в файлі package.json 5-му рядок напишіть своє ім'я 
-
-В файлі angular.json в методі є рядок:
-
-``` "defaultProject": "purchaseapp"  ```
-
-З версії Angular CLI v14.0.6 це не потрібно, але якщо в вас старіша версія - залиште цей рядок.
-
-**запуск** ```ng serve --open```
+все те саме що і вище, тільки для purchaseapp
 
 Деплой на [FireBase](https://firebase.google.com/)
 
@@ -66,3 +56,8 @@ have a build process for your assets, use your build's output directory.
 i  Skipping write of dist/purchaseapp/index.html
 ```
 
+##  Частина 2
+
+все те саме що і для purchaseapp, тільки для binding1, крім імені можна ще щось змінити, типи назву зторінки
+
+для binding2 аналогічно, але без деплою
